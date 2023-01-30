@@ -12,6 +12,10 @@
 		C0CB046B2987BB0800D330BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CB046A2987BB0800D330BE /* Assets.xcassets */; };
 		C0CB046E2987BB0800D330BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CB046D2987BB0800D330BE /* Preview Assets.xcassets */; };
 		C0CB04752987BB2100D330BE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C0CB04742987BB2100D330BE /* .gitignore */; };
+		C0CB04792987BC8800D330BE /* GreenRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB04782987BC8800D330BE /* GreenRectangle.swift */; };
+		C0CB047B2987BCBE00D330BE /* LinearGradient+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB047A2987BCBE00D330BE /* LinearGradient+Ex.swift */; };
+		C0CB047D2987BCDF00D330BE /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB047C2987BCDF00D330BE /* Color+Ex.swift */; };
+		C0CB047F2987BE4E00D330BE /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB047E2987BE4E00D330BE /* CustomActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		C0CB046A2987BB0800D330BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CB046D2987BB0800D330BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0CB04742987BB2100D330BE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C0CB04782987BC8800D330BE /* GreenRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenRectangle.swift; sourceTree = "<group>"; };
+		C0CB047A2987BCBE00D330BE /* LinearGradient+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+Ex.swift"; sourceTree = "<group>"; };
+		C0CB047C2987BCDF00D330BE /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
+		C0CB047E2987BE4E00D330BE /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,11 @@
 		C0CB04652987BB0600D330BE /* CustomElemets */ = {
 			isa = PBXGroup;
 			children = (
+				C0CB04772987BC6600D330BE /* Views */,
+				C0CB04762987BC5800D330BE /* Extensions */,
 				C0CB04662987BB0600D330BE /* CustomElemetsApp.swift */,
 				C0CB04682987BB0600D330BE /* ContentView.swift */,
+				C0CB04802987BF9300D330BE /* ActivityIndicators */,
 				C0CB046A2987BB0800D330BE /* Assets.xcassets */,
 				C0CB046C2987BB0800D330BE /* Preview Content */,
 			);
@@ -68,6 +79,31 @@
 				C0CB046D2987BB0800D330BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0CB04762987BC5800D330BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0CB047A2987BCBE00D330BE /* LinearGradient+Ex.swift */,
+				C0CB047C2987BCDF00D330BE /* Color+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0CB04772987BC6600D330BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0CB04782987BC8800D330BE /* GreenRectangle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0CB04802987BF9300D330BE /* ActivityIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				C0CB047E2987BE4E00D330BE /* CustomActivityIndicator.swift */,
+			);
+			path = ActivityIndicators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CB04792987BC8800D330BE /* GreenRectangle.swift in Sources */,
 				C0CB04692987BB0600D330BE /* ContentView.swift in Sources */,
 				C0CB04672987BB0600D330BE /* CustomElemetsApp.swift in Sources */,
+				C0CB047B2987BCBE00D330BE /* LinearGradient+Ex.swift in Sources */,
+				C0CB047D2987BCDF00D330BE /* Color+Ex.swift in Sources */,
+				C0CB047F2987BE4E00D330BE /* CustomActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
